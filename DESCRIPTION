@@ -18,8 +18,6 @@ Roxygen: list(markdown = TRUE)
 Imports:
     curl (>= 2.4),
     DBI (>= 0.6-1),
-    RPostgreSQL (>= 0.4.1),
-    RMariaDB (>= 1.0.6),
     RSQLite (>= 1.1.2),
     dplyr (>= 0.7.0),
     tibble,
@@ -33,4 +31,4 @@ Suggests:
     roxygen2 (>= 6.0.1),
     testthat,
     taxize
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0

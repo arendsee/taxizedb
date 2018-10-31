@@ -37,9 +37,7 @@ src_tpl <- function(user, password, dbname = "plantlist", ...) {
 #' @export
 #' @rdname src_taxizedb
 src_col <- function(user = "root", password = NULL, dbname = "col", ...) {
-  con <- DBI::dbConnect(RMariaDB::MariaDB(),
-                        dbname = dbname, user = user, password = password, ...)
-  dbplyr::src_dbi(con)
+  stop("NOT IMPLEMENTED")
 }
 
 #' @export
